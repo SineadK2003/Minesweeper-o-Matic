@@ -12,44 +12,44 @@ Cells can be flagged to mark suspected mine locations.
 For a more detailed explanation, refer to the Wikipedia page on Minesweeper.
 
 ## Project Phases
-# Phase 1: Basic Minesweeper Implementation
-Objective: Model the Minesweeper game in Haskell without UI/interaction.
-Requirements:
+### Phase 1: Basic Minesweeper Implementation
+#### Objective: Model the Minesweeper game in Haskell without UI/interaction.
+#### Requirements:
 Randomly distribute mines across the grid.
 Allow users to:
 Uncover cells interactively.
 Flag suspected mine locations.
 Detect game-end conditions (win/loss).
 
-# Phase 2: Automatic Player
-Objective: Enhance the game with an auto-player.
-Features:
+### Phase 2: Automatic Player
+#### Objective: Enhance the game with an auto-player.
+#### Features:
 Add a "Play Move" button to play safe moves automatically.
 If no unambiguous safe moves are available:
 Optionally play the least risky move based on probabilities.
-Challenges:
+### Challenges:
 Minesweeper is NP-complete, making the creation of an efficient solver difficult.
 Advanced tactics and strategies are encouraged but not required for full marks.
 Grading Criteria
 The project contributes 35% of the final grade for CS4012:
 
-Documentation (15%):
+### Documentation (15%):
 Provide detailed comments in the code.
 Submit a 2–3 page design document including:
 High-level design choices.
 Reflection on the development process.
 Evaluation of Haskell as a language for this project.
-Basic Implementation (50%):
+##### Basic Implementation (50%):
 A well-designed, functional Minesweeper game with clear comments and documentation.
 Auto-Player (35%):
 At a minimum, the player should make simple and obvious moves.
 Implement advanced tactics for higher marks.
-Submission Guidelines
+### Submission Guidelines
 Submit a zip file containing the project directory:
 Should be a ready-to-build Stack project.
 Include the documentation in the directory or as a separate file.
-Deadline: Submit by end of day, 13th December. No extensions are possible.
-Resources
+### Deadline: Submit by end of day, 13th December. No extensions are possible.
+### Resources
 For guidance and inspiration:
 
 Richard Kaye's discussion on Minesweeper NP-completeness.
